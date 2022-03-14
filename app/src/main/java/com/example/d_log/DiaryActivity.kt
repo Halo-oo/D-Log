@@ -103,11 +103,6 @@ class DiaryActivity : AppCompatActivity() {
 
 
 
-
-
-
-
-
     /* 권한요청 처리 결과 수신 함수 __ 권한 승인 검사 및 권한 요청 (자동 호출) */
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
